@@ -3,6 +3,13 @@ $(document).ready(function () {
   $(".slide-in").addClass("slide-in-active");
 });
 
+//CART ONCLICK
+$(document).ready(function () {
+  $("#cart-icon").click(function () {
+    $(".cart-cnt").toggle();
+  });
+});
+
 //COUNTER
 $(document).ready(function () {
   let counterValue = 0;
@@ -20,19 +27,6 @@ $(document).ready(function () {
   $("#plus").click(function () {
     counterValue += 1;
     updateCounter();
-  });
-});
-
-$(document).ready(function () {
-  $("#cart-button").click(function () {
-    $(".cart-cnt").toggle();
-  });
-});
-
-//CART ONCLICK
-$(document).ready(function () {
-  $("#cart-icon").click(function () {
-    $(".cart-cnt").toggle();
   });
 });
 
