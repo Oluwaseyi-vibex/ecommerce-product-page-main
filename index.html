@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | E-commerce product page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="slide-in">
+    <div id="content">
+      <nav>
+        <div id="nav-start">
+          <img id="logo" src="./images/logo.svg" />
+          <ul id="nav-ul">
+            <li id="nav-li">Collections</li>
+            <li id="nav-li">Men</li>
+            <li id="nav-li">Women</li>
+            <li id="nav-li">About</li>
+            <li id="nav-li">Contact</li>
+          </ul>
+        </div>
+
+        <div id="nav-end">
+          <div class="cart-hover">
+            <img id="cart-icon" src="./images/icon-cart.svg" alt="" />
+            <div class="cart-cnt">
+              <div class="cart-text-cnt">
+                <h3 class="cart-text">Cart</h3>
+              </div>
+              <div class="emptycart-cnt">
+                <div class="filled-cart">
+                  <div class="imageAndDetails">
+                    <img
+                      src="./images/image-product-1-thumbnail.jpg"
+                      alt=""
+                      class="filled-cart-thbml"
+                    />
+                    <div class="filled-cart-details">
+                      <p class="filledcart-title">
+                        Fall Limited Edition Sneakers
+                      </p>
+                      <p class="price-calc">
+                        <span class="pricemulti">
+                          $125.00 x
+                          <span class="num3">3</span>
+                        </span>
+                        <span class="filled-price">$375.00</span>
+                      </p>
+                    </div>
+                    <img src="./images/icon-delete.svg" alt="" class="delete" />
+                  </div>
+
+                  <button class="checkout">Checkout</button>
+                </div>
+                <p class="emptycart">
+                  Your cart is empty.
+                </p>
+              </div>
+            </div>
+          </div>
+          <img id="avatar" src="./images/image-avatar.png" alt="" />
+        </div>
+      </nav>
+
+      <main>
+        <div id="img-container">
+          <img id="image1" src="./images/image-product-1.jpg" alt="" />
+
+          <div id="img-inner-container">
+            <img
+              src="./images/image-product-1-thumbnail.jpg"
+              alt=""
+              id="image1-thumbnail"
+            />
+            <img
+              src="./images/image-product-2-thumbnail.jpg"
+              alt=""
+              id="image2-thumbnail"
+            />
+            <img
+              src="./images/image-product-3-thumbnail.jpg"
+              alt=""
+              id="image3-thumbnail"
+            />
+            <img
+              src="./images/image-product-4-thumbnail.jpg"
+              alt=""
+              id="image4-thumbnail"
+            />
+          </div>
+        </div>
+
+        <div id="img-info">
+          <p id="title">SNEAKER COMPANY</p>
+          <h1 id="sub-title">
+            Fall Limited Edition
+            <br />
+            Sneakers
+          </h1>
+          <p id="img-detail">
+            These low-profile sneakers are your perfect casual wear
+            <br />
+            companion. Featuring a durable rubber outer sole, they’ll
+            <br />
+            withstand everything the weather can offer.
+          </p>
+          <div id="price-cnt">
+            <h3 id="price">$125.00</h3>
+            <div id="discount-percent">50%</div>
+          </div>
+          <p id="old-price">
+            $250.00
+          </p>
+
+          <div id="add-to-cart-button-cnt">
+            <div id="minus-num-plus">
+              <img src="./images/icon-minus.svg" alt="" id="minus" />
+              <p id="num">0</p>
+              <img src="./images/icon-plus.svg" alt="" id="plus" />
+            </div>
+            <button id="add-to-cart-button">
+              <img src="./images/icon-cart-white.svg" alt="" id="cart-button" />
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </main>
+
+      <!-- <div id="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
+        </a>
+        . Coded by
+        <a href="#">Your Name Here</a>
+        .
+      </div> -->
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
