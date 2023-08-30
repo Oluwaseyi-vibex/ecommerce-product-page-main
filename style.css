@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   /* border: solid red 0.5px; */
-  font-family: 'Kumbh Sans';
+  font-family: 'Kumbh Sans', sans-serif;
   box-sizing: border-box;
 }
 
@@ -346,5 +346,5 @@ main {
 }
 
 .emptycart {
-  display: none;
+  display: block;
 }
